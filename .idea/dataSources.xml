@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="v2cmsrmapone" uuid="b1d42889-5cb2-4dd1-981c-b82ba55dc8cd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://rmap.one:5432/v2cmsrmapone</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="V1cmsrmapone" uuid="0d595bea-8ce1-43cf-8743-73d5dc75f731">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://rmap.one:5432/rmaponedbnew</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Athena" uuid="f4fc7b38-8378-4ece-975d-5d6d7f5cde9d">
+      <driver-ref>7f202fc1-a6b9-4078-949d-4bf6ed2c17d0</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:awsathena://athena.ap-southeast-1.amazonaws.com:443</jdbc-url>
+    </data-source>
+  </component>
+</project>
